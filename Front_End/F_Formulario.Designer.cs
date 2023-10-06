@@ -170,6 +170,7 @@
             // txtBox2_Nome
             // 
             this.txtBox2_Nome.Location = new System.Drawing.Point(164, 158);
+            this.txtBox2_Nome.MaxLength = 100;
             this.txtBox2_Nome.Name = "txtBox2_Nome";
             this.txtBox2_Nome.Size = new System.Drawing.Size(316, 20);
             this.txtBox2_Nome.TabIndex = 1;
@@ -178,6 +179,7 @@
             // txtBox3_Nasc
             // 
             this.txtBox3_Nasc.Location = new System.Drawing.Point(164, 242);
+            this.txtBox3_Nasc.MaxLength = 11;
             this.txtBox3_Nasc.Name = "txtBox3_Nasc";
             this.txtBox3_Nasc.Size = new System.Drawing.Size(171, 20);
             this.txtBox3_Nasc.TabIndex = 3;
@@ -187,6 +189,7 @@
             // txtBox4_End
             // 
             this.txtBox4_End.Location = new System.Drawing.Point(164, 326);
+            this.txtBox4_End.MaxLength = 100;
             this.txtBox4_End.Name = "txtBox4_End";
             this.txtBox4_End.Size = new System.Drawing.Size(442, 20);
             this.txtBox4_End.TabIndex = 4;
@@ -194,6 +197,7 @@
             // txtBox5_Bairro
             // 
             this.txtBox5_Bairro.Location = new System.Drawing.Point(164, 368);
+            this.txtBox5_Bairro.MaxLength = 100;
             this.txtBox5_Bairro.Name = "txtBox5_Bairro";
             this.txtBox5_Bairro.Size = new System.Drawing.Size(316, 20);
             this.txtBox5_Bairro.TabIndex = 5;
@@ -201,6 +205,7 @@
             // txtBox6_Municipio
             // 
             this.txtBox6_Municipio.Location = new System.Drawing.Point(164, 410);
+            this.txtBox6_Municipio.MaxLength = 100;
             this.txtBox6_Municipio.Name = "txtBox6_Municipio";
             this.txtBox6_Municipio.Size = new System.Drawing.Size(316, 20);
             this.txtBox6_Municipio.TabIndex = 6;
@@ -240,6 +245,7 @@
             // txtBox8_Idade
             // 
             this.txtBox8_Idade.Location = new System.Drawing.Point(164, 284);
+            this.txtBox8_Idade.MaxLength = 5;
             this.txtBox8_Idade.Name = "txtBox8_Idade";
             this.txtBox8_Idade.Size = new System.Drawing.Size(77, 20);
             this.txtBox8_Idade.TabIndex = 33;
@@ -312,6 +318,7 @@
             // txtBox9_CEP
             // 
             this.txtBox9_CEP.Location = new System.Drawing.Point(164, 494);
+            this.txtBox9_CEP.MaxLength = 10;
             this.txtBox9_CEP.Name = "txtBox9_CEP";
             this.txtBox9_CEP.Size = new System.Drawing.Size(100, 20);
             this.txtBox9_CEP.TabIndex = 8;
@@ -320,7 +327,7 @@
             // txtBox10_Email
             // 
             this.txtBox10_Email.Location = new System.Drawing.Point(164, 536);
-            this.txtBox10_Email.MaxLength = 255;
+            this.txtBox10_Email.MaxLength = 100;
             this.txtBox10_Email.Name = "txtBox10_Email";
             this.txtBox10_Email.Size = new System.Drawing.Size(442, 20);
             this.txtBox10_Email.TabIndex = 9;
