@@ -217,9 +217,16 @@ namespace Front_End
             }
         }
 
-
-
-
-
+        private void btn2_Sair_Click(object sender, EventArgs e)
+        {
+            if (MessageBox.Show("Tem certeza que deseja sair da aplicação?", "Confirmação", MessageBoxButtons.YesNo) == DialogResult.No)
+            {
+                //Continua
+            }
+            else
+            {
+                Application.Exit();
+            }
+        }
     }
 }

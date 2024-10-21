@@ -44,7 +44,7 @@
             this.txtBox4_End = new System.Windows.Forms.TextBox();
             this.txtBox5_Bairro = new System.Windows.Forms.TextBox();
             this.txtBox6_Municipio = new System.Windows.Forms.TextBox();
-            this.button1 = new System.Windows.Forms.Button();
+            this.btn1_Salvar = new System.Windows.Forms.Button();
             this.comboBox1_Sexo = new System.Windows.Forms.ComboBox();
             this.lbl5_Idade = new System.Windows.Forms.Label();
             this.txtBox8_Idade = new System.Windows.Forms.TextBox();
@@ -56,11 +56,13 @@
             this.txtBox10_Email = new System.Windows.Forms.TextBox();
             this.lbl12_Telefone = new System.Windows.Forms.Label();
             this.txtBox11_Telefone = new System.Windows.Forms.TextBox();
+            this.btn2_Sair = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // lbl0_TituloCadatroPessoas
             // 
+            this.lbl0_TituloCadatroPessoas.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.lbl0_TituloCadatroPessoas.AutoSize = true;
             this.lbl0_TituloCadatroPessoas.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbl0_TituloCadatroPessoas.Location = new System.Drawing.Point(255, 50);
@@ -72,6 +74,7 @@
             // 
             // txtBox1_CPF
             // 
+            this.txtBox1_CPF.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.txtBox1_CPF.Location = new System.Drawing.Point(164, 116);
             this.txtBox1_CPF.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.txtBox1_CPF.Name = "txtBox1_CPF";
@@ -81,6 +84,7 @@
             // 
             // lbl1_CPF
             // 
+            this.lbl1_CPF.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.lbl1_CPF.AutoSize = true;
             this.lbl1_CPF.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbl1_CPF.Location = new System.Drawing.Point(126, 119);
@@ -92,6 +96,7 @@
             // 
             // lbl2_Nome
             // 
+            this.lbl2_Nome.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.lbl2_Nome.AutoSize = true;
             this.lbl2_Nome.Cursor = System.Windows.Forms.Cursors.HSplit;
             this.lbl2_Nome.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -104,6 +109,7 @@
             // 
             // lbl3_Sexo
             // 
+            this.lbl3_Sexo.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.lbl3_Sexo.AutoSize = true;
             this.lbl3_Sexo.Location = new System.Drawing.Point(116, 203);
             this.lbl3_Sexo.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
@@ -114,6 +120,7 @@
             // 
             // lbl4_Nascimento
             // 
+            this.lbl4_Nascimento.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.lbl4_Nascimento.AutoSize = true;
             this.lbl4_Nascimento.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbl4_Nascimento.Location = new System.Drawing.Point(69, 245);
@@ -125,6 +132,7 @@
             // 
             // lbl6_End
             // 
+            this.lbl6_End.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.lbl6_End.AutoSize = true;
             this.lbl6_End.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbl6_End.Location = new System.Drawing.Point(78, 329);
@@ -136,6 +144,7 @@
             // 
             // lbl7_Bairro
             // 
+            this.lbl7_Bairro.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.lbl7_Bairro.AutoSize = true;
             this.lbl7_Bairro.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbl7_Bairro.Location = new System.Drawing.Point(99, 371);
@@ -147,6 +156,7 @@
             // 
             // lbl8_Municipio
             // 
+            this.lbl8_Municipio.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.lbl8_Municipio.AutoSize = true;
             this.lbl8_Municipio.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbl8_Municipio.Location = new System.Drawing.Point(85, 413);
@@ -158,6 +168,7 @@
             // 
             // lbl9_Estado
             // 
+            this.lbl9_Estado.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.lbl9_Estado.AutoSize = true;
             this.lbl9_Estado.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbl9_Estado.Location = new System.Drawing.Point(99, 455);
@@ -169,6 +180,7 @@
             // 
             // txtBox2_Nome
             // 
+            this.txtBox2_Nome.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.txtBox2_Nome.Location = new System.Drawing.Point(164, 158);
             this.txtBox2_Nome.MaxLength = 100;
             this.txtBox2_Nome.Name = "txtBox2_Nome";
@@ -178,6 +190,7 @@
             // 
             // txtBox3_Nasc
             // 
+            this.txtBox3_Nasc.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.txtBox3_Nasc.Location = new System.Drawing.Point(164, 242);
             this.txtBox3_Nasc.MaxLength = 11;
             this.txtBox3_Nasc.Name = "txtBox3_Nasc";
@@ -188,6 +201,7 @@
             // 
             // txtBox4_End
             // 
+            this.txtBox4_End.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.txtBox4_End.Location = new System.Drawing.Point(164, 326);
             this.txtBox4_End.MaxLength = 100;
             this.txtBox4_End.Name = "txtBox4_End";
@@ -196,6 +210,7 @@
             // 
             // txtBox5_Bairro
             // 
+            this.txtBox5_Bairro.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.txtBox5_Bairro.Location = new System.Drawing.Point(164, 368);
             this.txtBox5_Bairro.MaxLength = 100;
             this.txtBox5_Bairro.Name = "txtBox5_Bairro";
@@ -204,23 +219,26 @@
             // 
             // txtBox6_Municipio
             // 
+            this.txtBox6_Municipio.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.txtBox6_Municipio.Location = new System.Drawing.Point(164, 410);
             this.txtBox6_Municipio.MaxLength = 100;
             this.txtBox6_Municipio.Name = "txtBox6_Municipio";
             this.txtBox6_Municipio.Size = new System.Drawing.Size(316, 20);
             this.txtBox6_Municipio.TabIndex = 6;
             // 
-            // button1
+            // btn1_Salvar
             // 
-            this.button1.Location = new System.Drawing.Point(511, 615);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(95, 32);
-            this.button1.TabIndex = 12;
-            this.button1.Text = "SALVAR";
-            this.button1.UseVisualStyleBackColor = true;
+            this.btn1_Salvar.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.btn1_Salvar.Location = new System.Drawing.Point(436, 617);
+            this.btn1_Salvar.Name = "btn1_Salvar";
+            this.btn1_Salvar.Size = new System.Drawing.Size(95, 32);
+            this.btn1_Salvar.TabIndex = 12;
+            this.btn1_Salvar.Text = "SALVAR";
+            this.btn1_Salvar.UseVisualStyleBackColor = true;
             // 
             // comboBox1_Sexo
             // 
+            this.comboBox1_Sexo.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.comboBox1_Sexo.FormattingEnabled = true;
             this.comboBox1_Sexo.ItemHeight = 13;
             this.comboBox1_Sexo.Items.AddRange(new object[] {
@@ -235,6 +253,7 @@
             // 
             // lbl5_Idade
             // 
+            this.lbl5_Idade.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.lbl5_Idade.AutoSize = true;
             this.lbl5_Idade.Location = new System.Drawing.Point(111, 289);
             this.lbl5_Idade.Name = "lbl5_Idade";
@@ -244,6 +263,7 @@
             // 
             // txtBox8_Idade
             // 
+            this.txtBox8_Idade.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.txtBox8_Idade.Location = new System.Drawing.Point(164, 284);
             this.txtBox8_Idade.MaxLength = 5;
             this.txtBox8_Idade.Name = "txtBox8_Idade";
@@ -252,6 +272,8 @@
             // 
             // comboBox2_Estado
             // 
+            this.comboBox2_Estado.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.comboBox2_Estado.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.comboBox2_Estado.FormattingEnabled = true;
             this.comboBox2_Estado.Items.AddRange(new object[] {
             "Acre",
@@ -283,12 +305,14 @@
             "Tocantins",
             ""});
             this.comboBox2_Estado.Location = new System.Drawing.Point(164, 452);
+            this.comboBox2_Estado.MaxDropDownItems = 10;
             this.comboBox2_Estado.Name = "comboBox2_Estado";
             this.comboBox2_Estado.Size = new System.Drawing.Size(171, 21);
             this.comboBox2_Estado.TabIndex = 7;
             // 
             // pictureBox1
             // 
+            this.pictureBox1.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
             this.pictureBox1.Location = new System.Drawing.Point(173, 27);
             this.pictureBox1.Name = "pictureBox1";
@@ -299,6 +323,7 @@
             // 
             // lbl10_CEP
             // 
+            this.lbl10_CEP.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.lbl10_CEP.AutoSize = true;
             this.lbl10_CEP.Location = new System.Drawing.Point(122, 497);
             this.lbl10_CEP.Name = "lbl10_CEP";
@@ -308,6 +333,7 @@
             // 
             // lbl11_Email
             // 
+            this.lbl11_Email.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.lbl11_Email.AutoSize = true;
             this.lbl11_Email.Location = new System.Drawing.Point(109, 539);
             this.lbl11_Email.Name = "lbl11_Email";
@@ -317,6 +343,7 @@
             // 
             // txtBox9_CEP
             // 
+            this.txtBox9_CEP.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.txtBox9_CEP.Location = new System.Drawing.Point(164, 494);
             this.txtBox9_CEP.MaxLength = 10;
             this.txtBox9_CEP.Name = "txtBox9_CEP";
@@ -326,6 +353,7 @@
             // 
             // txtBox10_Email
             // 
+            this.txtBox10_Email.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.txtBox10_Email.Location = new System.Drawing.Point(164, 536);
             this.txtBox10_Email.MaxLength = 100;
             this.txtBox10_Email.Name = "txtBox10_Email";
@@ -335,6 +363,7 @@
             // 
             // lbl12_Telefone
             // 
+            this.lbl12_Telefone.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.lbl12_Telefone.AutoSize = true;
             this.lbl12_Telefone.Location = new System.Drawing.Point(85, 581);
             this.lbl12_Telefone.Name = "lbl12_Telefone";
@@ -344,11 +373,23 @@
             // 
             // txtBox11_Telefone
             // 
+            this.txtBox11_Telefone.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.txtBox11_Telefone.Location = new System.Drawing.Point(164, 578);
             this.txtBox11_Telefone.Name = "txtBox11_Telefone";
             this.txtBox11_Telefone.Size = new System.Drawing.Size(171, 20);
             this.txtBox11_Telefone.TabIndex = 10;
             this.txtBox11_Telefone.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtBox11_Telefone_KeyPress);
+            // 
+            // btn2_Sair
+            // 
+            this.btn2_Sair.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.btn2_Sair.Location = new System.Drawing.Point(543, 617);
+            this.btn2_Sair.Name = "btn2_Sair";
+            this.btn2_Sair.Size = new System.Drawing.Size(95, 32);
+            this.btn2_Sair.TabIndex = 34;
+            this.btn2_Sair.Text = "SAIR";
+            this.btn2_Sair.UseVisualStyleBackColor = true;
+            this.btn2_Sair.Click += new System.EventHandler(this.btn2_Sair_Click);
             // 
             // F_Formulario
             // 
@@ -357,6 +398,7 @@
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(650, 677);
+            this.Controls.Add(this.btn2_Sair);
             this.Controls.Add(this.txtBox11_Telefone);
             this.Controls.Add(this.lbl12_Telefone);
             this.Controls.Add(this.txtBox10_Email);
@@ -368,7 +410,7 @@
             this.Controls.Add(this.txtBox8_Idade);
             this.Controls.Add(this.lbl5_Idade);
             this.Controls.Add(this.comboBox1_Sexo);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.btn1_Salvar);
             this.Controls.Add(this.txtBox6_Municipio);
             this.Controls.Add(this.txtBox5_Bairro);
             this.Controls.Add(this.txtBox4_End);
@@ -388,7 +430,7 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
-            this.MaximizeBox = false;
+            this.MinimumSize = new System.Drawing.Size(666, 716);
             this.Name = "F_Formulario";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Meu Formulário";
@@ -415,7 +457,7 @@
         private System.Windows.Forms.TextBox txtBox4_End;
         private System.Windows.Forms.TextBox txtBox5_Bairro;
         private System.Windows.Forms.TextBox txtBox6_Municipio;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button btn1_Salvar;
         private System.Windows.Forms.ComboBox comboBox1_Sexo;
         private System.Windows.Forms.Label lbl5_Idade;
         private System.Windows.Forms.TextBox txtBox8_Idade;
@@ -427,6 +469,7 @@
         private System.Windows.Forms.TextBox txtBox10_Email;
         private System.Windows.Forms.Label lbl12_Telefone;
         private System.Windows.Forms.TextBox txtBox11_Telefone;
+        private System.Windows.Forms.Button btn2_Sair;
     }
 }
 
